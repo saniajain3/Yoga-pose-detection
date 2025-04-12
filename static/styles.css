@@ -1,0 +1,73 @@
+.Background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden; 
+}
+
+.Background img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.Content {
+  position: relative;
+  z-index: 1; 
+}
+
+.YogaFirstFitnessAlways {
+  color: #343A40;
+  font-family: Fredoka;
+  font-size: 5vw; /* Adjust font size for responsiveness */
+  position: relative;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.FitnessAlways{
+  color: #343A40;
+  font-family: Fredoka;
+  font-size: 5vw; /* Adjust font size for responsiveness */
+  position: relative;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+.text{
+  color: #343A40;
+  font-family: Inter;
+  font-size: 2vw; /* Adjust font size for responsiveness */
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+
+}
+.Button, .Button1 {
+  position: absolute;
+  background-color: #5F6F52;
+  padding: 1.5% 1.5%;
+  border-radius: 0.5vw;
+  font-size: 1.5vw; 
+}
+
+.Button {
+  margin-top: 3%; 
+  left: 5%; 
+}
+
+.Button1 {
+  margin-top: 3%; 
+  left: 16%; 
+}
+
+.ButtonContent, .ButtonContent1 {
+  color: white;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.2;
+  word-wrap: break-word;
+  text-decoration: none;;
+}
